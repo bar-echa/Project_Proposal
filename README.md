@@ -1,101 +1,98 @@
-Restaurant Finder
-Project Description
-Restaurant Finder is a React Native mobile application that helps users discover restaurants based on their location, preferred cuisine, and search keywords. By integrating with the Yelp Fusion API, the application provides real-time restaurant information, allowing users to browse available dining options and access detailed restaurant data directly from their mobile devices.
 
-The application enables users to search for restaurants by city, cuisine, or restaurant name, view a list of matching results, and explore detailed information about each restaurant, including ratings, photos, addresses, phone numbers, pricing, and business hours when available. The project is designed to provide a clean, responsive, and user-friendly experience while demonstrating modern mobile development practices.
+# Restaurant Finder 🍽️
 
-Project Overview
-Restaurant Finder is developed using React Native and Expo and focuses on integrating live API data rather than using a local database. The application demonstrates key concepts learned throughout the course, including API integration, asynchronous programming, navigation between screens, reusable components, responsive layouts, and state management using React Hooks.
+**Developer:** Barecha Umeta
 
-Features
-Search restaurants by name, cuisine, or location.
+**Course:** SODV2205-01 – Mobile Application Development with React Native I
 
-Browse restaurant listings retrieved from the Yelp Fusion API.
+**Institution:** Bow Valley College
 
-View restaurant ratings and categories.
+---
 
-Display restaurant photos and contact information.
+## Project Description
 
-Access detailed restaurant information.
+Restaurant Finder is a **React Native mobile application** that helps users discover restaurants based on their location, preferred cuisine, and search keywords.
 
-Responsive mobile interface using Flexbox.
+The application integrates with the **Yelp Fusion API** to retrieve live restaurant information.
 
-Navigation between multiple screens.
+## Project Overview
 
-Loading indicators and error handling.
+Restaurant Finder is developed using React Native and Expo. It allows users to search for restaurants, browse restaurant listings, and view detailed information about selected restaurants.
 
-Reusable React Native components.
+## Features
 
-Screens
-1. Home and Search Screen
-Users can enter a restaurant name, cuisine type, or location to begin their search.
+- Search restaurants by name, cuisine, or location.
+- Browse restaurant listings.
+- View restaurant ratings and categories.
+- Display restaurant photos and contact information.
+- Access detailed restaurant information.
+- Responsive mobile interface using Flexbox.
+- Navigation between multiple screens.
+- Loading indicators and error handling.
 
-2. Restaurant Results Screen
-Displays restaurant search results using FlatList with restaurant images, ratings, categories, and addresses.
+## Application Screens
 
-3. Restaurant Details Screen
-Provides detailed information about a selected restaurant, including photos, ratings, address, phone number, price range, and business hours when available.
+### 1. Home and Search Screen
 
-Technologies Used
-React Native
+Users can search for restaurants by entering a restaurant name, cuisine type, or location.
 
-Expo
+### 2. Restaurant Results Screen
 
-JavaScript
+Displays restaurant search results using FlatList, including images, ratings, categories, and addresses.
 
-Axios
+### 3. Restaurant Details Screen
 
-Yelp Fusion API
+Displays detailed information about a selected restaurant, including photos, ratings, address, phone number, and business hours when available.
 
-React Navigation
+## Technologies Used
 
-React Hooks (useState, useEffect)
+- React Native
+- Expo
+- JavaScript
+- Axios
+- Yelp Fusion API
+- React Navigation
+- React Hooks
+- FlatList
+- Expo Vector Icons
+- Flexbox
 
-FlatList
+## API Integration
 
-Expo Vector Icons
+**API Name:** Yelp Fusion API
 
-Flexbox and React Native StyleSheet
+**Documentation:** https://docs.developer.yelp.com/
 
-API Integration
-This project uses the Yelp Fusion API to retrieve restaurant information.
+**Endpoints:**
 
-API Endpoints:
+- Business Search: `/v3/businesses/search`
+- Business Details: `/v3/businesses/{id}`
 
-Business Search Endpoint: /v3/businesses/search
+## Developer Information
 
-Business Details Endpoint: /v3/businesses/
+**Name:** Barecha Umeta
 
-API Documentation: https://docs.developer.yelp.com/ 
+**Team:** Solo Developer
 
-Axios and async/await will be used to retrieve restaurant information from the API.
+**Project Type:** Individual Project
 
-Developer Information
-Developer Name: Barecha Umeta
+**Course:** SODV2205-01
 
-Team Name: Solo Developer
+---
 
-Project Type: Individual Project
+## Project Objectives
 
-Course: SODV2205-01 – Mobile Application Development with React Native I
+1. Develop a functional restaurant discovery application.
+2. Integrate a live API using Axios.
+3. Implement at least three interactive screens.
+4. Demonstrate React Hooks and state management.
+5. Use React Navigation for screen navigation.
+6. Display API results using FlatList.
+7. Create reusable components.
+8. Design a responsive interface using Flexbox.
 
-Institution: Bow Valley College
+---
 
-Project Objectives
-Develop a functional restaurant discovery mobile application.
+**Developed by Barecha Umeta**
 
-Integrate a live third-party API using Axios.
-
-Implement at least three interactive application screens.
-
-Demonstrate React Hooks and state management.
-
-Use React Navigation for screen navigation.
-
-Display API results using FlatList.
-
-Create reusable components.
-
-Design a responsive interface using Flexbox.
-
-Handle loading states and API errors.
+*Restaurant Finder – Final Term Project*
